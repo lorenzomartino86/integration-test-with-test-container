@@ -19,6 +19,7 @@
         <jedis.version>2.8.1</jedis.version>
         <junit.version>4.12</junit.version>
         <testcontainer.version>1.12.2</testcontainer.version>
+        <testcontainer-mysql.version>1.12.2</testcontainer-mysql.version>
     </properties>
 
     <dependencies>
@@ -63,7 +64,7 @@
         <dependency>
             <groupId>org.testcontainers</groupId>
             <artifactId>mysql</artifactId>
-            <version>1.12.2</version>
+            <version>${testcontainer-mysql.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
