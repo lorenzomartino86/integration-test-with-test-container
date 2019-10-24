@@ -31,7 +31,7 @@ public class MysqlTodoRepositoryTest {
     }
 
     @Test
-    public void canIntegrateWithMysqlContainer() throws SQLException {
+    public void canCreateNewTodo() throws SQLException {
         MysqlTodo todo = new MysqlTodo();
         todo.setId(123L);
         todo.setTodo("Important TODO");
