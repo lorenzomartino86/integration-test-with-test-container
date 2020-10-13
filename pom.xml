@@ -17,7 +17,7 @@
         <lombok.version>1.18.4</lombok.version>
         <ormlite-jdbc.version>5.0</ormlite-jdbc.version>
         <jedis.version>2.8.1</jedis.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <testcontainer.version>1.12.2</testcontainer.version>
         <testcontainer-mysql.version>1.12.2</testcontainer-mysql.version>
     </properties>
